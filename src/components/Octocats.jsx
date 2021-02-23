@@ -1,12 +1,12 @@
 import React from 'react'
-export class Octocat extends React.Component {
+export class Octocats extends React.Component {
   render() {
     return (
       <section>
         <article>
           <a href={this.props.articleImageLink}>
             <img
-              src={this.props.octocatImage}
+              src={this.props.octocatsImage}
               width="400"
               height="400"
               alt={this.props.name}
